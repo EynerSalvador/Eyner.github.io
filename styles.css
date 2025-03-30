@@ -7,101 +7,101 @@
     scroll-behavior: smooth;
 }
 
-/* Fondo con degradado */
+/* Fondo general */
 body {
-    background: linear-gradient(to right, #1c1c1e, #2c3e50);
+    background: #1c1c1e;
     color: #ffffff;
+}
+
+/* Sección del perfil */
+.profile-header {
+    background: #2c3e50;
+    padding: 40px 0;
     text-align: center;
-    padding-top: 80px;
 }
 
-/* Encabezado */
-header {
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Estilo para la foto de perfil */
-.profile {
+.profile-content {
     display: flex;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    gap: 20px;
 }
 
-.profile img {
-    width: 60px;
-    height: 60px;
+.profile-content img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    border: 2px solid #3498db;
+    border: 3px solid #3498db;
 }
 
-.profile h1 {
-    font-size: 22px;
-    font-weight: bold;
-    color: #ffffff;
+.profile-text h1 {
+    font-size: 24px;
+}
+
+.profile-text p {
+    color: #b0c4de;
 }
 
 /* Navegación */
-nav {
+.navbar {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    gap: 15px;
+    background: #34495e;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-nav a {
-    color: #ffffff;
+.navbar a {
+    color: white;
     text-decoration: none;
-    padding: 8px 12px;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background 0.3s;
+    padding: 10px 15px;
+    transition: 0.3s;
 }
 
-nav a:hover {
+.navbar a:hover {
     background: #3498db;
+    border-radius: 5px;
 }
 
 /* Secciones */
-section {
-    padding: 80px 20px;
+.section {
+    padding: 60px 20px;
     max-width: 800px;
-    margin: 50px auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin: auto;
 }
 
-/* Redes Sociales */
-.social-icons {
-    margin-top: 20px;
+/* Habilidades */
+.skills {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
+}
+
+.skill {
+    background: #3498db;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Proyectos */
+.project-list {
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
 
-.social-icons a {
-    color: white;
-    font-size: 28px;
-    transition: transform 0.3s, color 0.3s;
+.project-card {
+    background: #2c3e50;
+    padding: 15px;
+    border-radius: 5px;
 }
 
-.social-icons a:hover {
-    color: #3498db;
-    transform: scale(1.2);
-}
-
-/* Pie de página */
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background: #222;
 }
