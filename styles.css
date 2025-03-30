@@ -1,63 +1,86 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Profesional - Eyner Condori</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
-</head>
-<body>
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
 
-    <header>
-        <h1>Eyner Condori</h1>
-        <nav>
-            <a href="#acerca">Acerca de mí</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#estudios">Estudios</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 70px;
+}
 
-    <section id="acerca">
-        <h2>Acerca de Mí</h2>
-        <p>Soy un profesional en redes y telecomunicaciones con experiencia en análisis de infraestructura y seguridad informática.</p>
-    </section>
+/* Encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Seguridad informática</li>
-            <li>Administración de redes</li>
-            <li>Arquitectura empresarial</li>
-            <li>Desarrollo de software</li>
-        </ul>
-    </section>
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 
-    <section id="estudios">
-        <h2>Estudios</h2>
-        <p>Ingeniería de Sistemas e Informática. Certificaciones en Fortinet, Cisco e IBM.</p>
-    </section>
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <p>He trabajado en proyectos de telecomunicaciones y seguridad para empresas en el sector público y privado.</p>
-    </section>
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes encontrarme en mis redes sociales:</p>
-        <div class="social-icons">
-            <a href="https://linkedin.com/in/eynercondori" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/eynercondori" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:eyner.coes@gmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
-    </section>
+nav a:hover {
+    color: #3498db;
+}
 
-    <footer>
-        <p>© 2025 Eyner Condori. Todos los derechos reservados.</p>
-    </footer>
+/* Secciones */
+section {
+    padding: 80px 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-</body>
-</html>
+/* Redes Sociales */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
