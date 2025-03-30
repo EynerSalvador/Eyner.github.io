@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional - Eyner Condori</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Eyner Condori</h1>
+        <p>Analista NOC | Ingeniero de Preventa | Especialista en Redes</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#education">Estudios</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Acerca de mí</h2>
+        <p>Soy un profesional con más de 4 años de experiencia en redes y telecomunicaciones...</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Redes y telecomunicaciones</li>
+            <li>Ciberseguridad</li>
+            <li>Arquitectura empresarial</li>
+        </ul>
+    </section>
+    
+    <section id="education">
+        <h2>Estudios</h2>
+        <p>Ingeniería de Sistemas e Informática en curso...</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <p>Implementación de NOC en InpeCable...</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Email: eyner.condori@example.com</p>
+        <div class="social-icons">
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-twitter"></a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Eyner Condori. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
